@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootpane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.final1.Controller">
+    <children>
+        <ImageView fx:id="rootpane1" fitHeight="900.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/Beautiful-Space-3D-Animated-Desktop-Background.jpg" />
+            </image>
+        </ImageView>
+        <Button layoutX="370.0" layoutY="222.0" minWidth="61.0" mnemonicParsing="false" onAction="#adminlogin" opacity="0.89" prefHeight="31.0" prefWidth="104.0" text="Admin-login" />
+        <Button layoutX="370.0" layoutY="287.0" mnemonicParsing="false" onAction="#bid" opacity="0.89" prefHeight="31.0" prefWidth="104.0" text="Bid" />
+        <Button layoutX="370.0" layoutY="354.0" mnemonicParsing="false" onAction="#sell" opacity="0.88" prefHeight="31.0" prefWidth="104.0" text="Buy!" />
+      <ImageView fitHeight="141.0" fitWidth="197.0" layoutX="689.0" layoutY="361.0" opacity="0.94" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/5-Auction-Tips-for-Beginners2.jpg" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.41" contrast="0.38" hue="-0.11" saturation="-0.24" />
+         </effect>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="76.0" layoutY="14.0" prefHeight="139.0" prefWidth="743.0" text="AUCTION SYSTEM" textFill="#d00209">
+         <font>
+            <Font name="Calibri" size="94.0" />
+         </font>
+      </Label>
+
+    </children>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</AnchorPane>

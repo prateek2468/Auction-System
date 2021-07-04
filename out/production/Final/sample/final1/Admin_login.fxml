@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" prefHeight="281.0" prefWidth="443.0" stylesheets="@styles.css"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.final1.AdminLoginController" >
+    <children>
+        <ImageView fitHeight="283.0" fitWidth="518.0" layoutX="-10.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+
+
+        </ImageView>
+        <Label fx:id="msg" alignment="CENTER" layoutX="176.0" layoutY="243.0" prefHeight="16.0" prefWidth="67.0" textFill="#f86a6a" />
+        <Button alignment="CENTER" layoutX="80.0" layoutY="212.0" mnemonicParsing="false" onAction="#getpassword" opacity="0.73" prefHeight="26.0" prefWidth="67.0" text="Login" textAlignment="CENTER">
+            <font>
+                <Font name="Fira Code Regular" size="15.0" />
+            </font>
+        </Button>
+        <PasswordField fx:id="pass" alignment="CENTER" layoutX="37.0" layoutY="169.0" prefHeight="33.0" prefWidth="154.0" promptText="Password" />
+        <ImageView fx:id="logo" fitHeight="83.0" fitWidth="83.0" layoutX="72.0" layoutY="75.0" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Images/Beautiful-Space-3D-Animated-Desktop-Background.jpg" />
+            </image>
+        </ImageView>
+
+        <Text fill="WHITE" layoutX="60.0" layoutY="54.0" opacity="0.79" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME" textAlignment="CENTER" wrappingWidth="108.0">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Text>
+    </children>
+
+</AnchorPane>
